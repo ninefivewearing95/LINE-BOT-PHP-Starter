@@ -2,7 +2,7 @@
 echo "I am a bot";
 
 <?php
-$access_token = 'eqbLKcS4lE5M3VeGrKG9z/ee+8/0wRow35lxnU6WB44e+6lE3HU/dknovDkImH9rwlBcqqrFTuTsCCpSxwSZcGFslPqK/GA9/pBsDoYjHr8uqgZoBhJfmrqrOBzgVTxj0KtN5QPoZhAEP4FH6Zcd+wdB04t89/1O/w1cDnyilFU=';
+$access_token = 'XXXXXXXXXXXXXXXXXXXXXXX';
 
 // Get POST body content
 $content = file_get_contents('php://input');
@@ -24,11 +24,6 @@ if (!is_null($events['events'])) {
 				'type' => 'text',
 				'text' => $text
 			];
-			
-			{
-          		  "type":"text",
-          		  "text":"May I help you?"
-       			 }
 
 			// Make a POST Request to Messaging API to reply to sender
 			$url = 'https://api.line.me/v2/bot/message/reply';
