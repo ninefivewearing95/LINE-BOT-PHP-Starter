@@ -23,7 +23,7 @@ if (!is_null($events['events'])) {
             "text":"Hello, user"
         },
         {
-            "type":"text",
+            "type":"text1",
             "text":"May I help you?"
         }
     ]
