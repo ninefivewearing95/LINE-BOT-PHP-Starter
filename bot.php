@@ -1,8 +1,5 @@
 <?php
-echo "I am a bot";
-
-<?php
-$access_token = 'XXXXXXXXXXXXXXXXXXXXXXX';
+$access_token = 'eqbLKcS4lE5M3VeGrKG9z/ee+8/0wRow35lxnU6WB44e+6lE3HU/dknovDkImH9rwlBcqqrFTuTsCCpSxwSZcGFslPqK/GA9/pBsDoYjHr8uqgZoBhJfmrqrOBzgVTxj0KtN5QPoZhAEP4FH6Zcd+wdB04t89/1O/w1cDnyilFU=';
 
 // Get POST body content
 $content = file_get_contents('php://input');
