@@ -18,14 +18,8 @@ if (!is_null($events['events'])) {
 
 			// Build message to reply back
 			$messages = [
-				{
 				'type' => 'text',
-				'text' => อะไรหว่า
-				},
-     				{
-				'type' => 'text',
-				'text' => อะไรวะ
-				}
+				'text' => เก้า ห้า แวริ่ง สวัสดีค่ะ
 			];
 
 			// Make a POST Request to Messaging API to reply to sender
